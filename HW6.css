@@ -8,6 +8,7 @@ body {
 }
 html {
 	font-family: monospace;
+	background-color: #DCDCDC;
 }
 
 .header-toolbar {
@@ -70,12 +71,37 @@ li {
 }
 .Content {
 	border: 1px solid black;
-	height: 520px;
+	height: 700px;
 	width: 1500px;
 	display: flex;
 	margin: auto;
+	background-color: white;
 
 }
+.content-info {
+	border: 1px solid black;
+	height: 700px;
+	width: calc(100%-900px);
 
+}
+.photo {
+	border: 1px solid black;
+	height: 700px;
+	width: 900px;
+}
+.screenshot {
+	position: relative;
+	top: 50px;
+	left: 100px;
+	
+}
+.price {
+	margin: auto;
+	position: relative;
+	top: 50px;
+    left: 550px;
+    transform: translate(0px,-250px);
+
+}
 
 	
